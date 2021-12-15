@@ -1,22 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import "./App.css";
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Bye there!</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React at reactjs.com
-        </a>
-      </header>
+    <div className='App'>
+      <h1>Docker React</h1>
     </div>
   );
 }
